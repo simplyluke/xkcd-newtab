@@ -1,0 +1,16 @@
+{
+
+  "description": "Replaces your newtab with a random xkcd",
+  "manifest_version": 2,
+  "name": "XKCD Newtab",
+  "version": "1.0",
+  "homepage_url": "http://simplyluke.com",
+
+  "chrome_url_overrides" : {
+    "newtab" : "xkcd-newtab.html"
+  },
+  "permissions": [
+    "*://xkcd.com/*",
+    "webRequest"
+  ]
+}
