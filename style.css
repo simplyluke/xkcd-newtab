@@ -1,8 +1,13 @@
-#title {
+h2 {
   font-family: sans-serif;
 }
 
 #alt {
   display: block;
   max-width: 600px;
+}
+
+.disclaimer {
+  margin-top: 1em;
+  font-size: 0.85em;
 }
